@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif; }
+
+.btn-black, .btn-form {
+  color: #fff;
+  background-color: black;
+  border-color: black; }
+  .btn-black:hover, .btn-form:hover {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+    transform: scale(0.9); }
+
+.bg-dest {
+  background-color: #fff; }
+
+.btn-form {
+  border-radius: 15px; }
+
+.titulo-1 {
+  font-size: 2em; }
+
+.texto-1 {
+  font-size: 2em; }
+
+footer {
+  width: 100%;
+  height: 100%;
+  background: black;
+  margin-top: 0%;
+  display: flex;
+  justify-content: center; }
+  footer .anchoFooter {
+    padding: 30px 30px; }
+  footer .redes {
+    display: inline-block; }
+  footer .bi-facebook {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white; }
+    footer .bi-facebook:hover {
+      color: #3b5998; }
+  footer .bi-whatsapp {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white; }
+    footer .bi-whatsapp:hover {
+      color: #25D366; }
+  footer .bi-instagram {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white; }
+    footer .bi-instagram:hover {
+      color: #ff2f60; }

@@ -1,0 +1,35 @@
+footer{
+   width: $w-100;
+   height: $h-100;
+   background: $secondColor;
+   margin-top: 0%;
+   display: flex;
+   justify-content: center;
+   .anchoFooter{
+      padding: 30px 30px;
+   }
+   .redes{
+      display: inline-block;
+   }
+   .bi-facebook{
+      @include iconos(30px,center,5px,5px,$mainColor);
+      &:hover{
+         color: #3b5998;
+      }
+   }
+   .bi-whatsapp{
+      @include iconos(30px,center,5px,5px,$mainColor);
+      &:hover{
+         color: #25D366;
+      }
+   }
+   .bi-instagram{
+      @include iconos(30px,center,5px,5px,$mainColor);
+      &:hover{
+         color: rgb(255, 47, 96);
+      }
+   }
+}
+
+
+   

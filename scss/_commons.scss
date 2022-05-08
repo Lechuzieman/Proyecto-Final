@@ -1,0 +1,31 @@
+//variables
+
+$mainColor:rgb(255, 255, 255);
+$secondColor:rgb(0, 0, 0);
+$keyColor:rgb(255, 255, 255);
+
+$w-100:100%;
+$w-75:75%;
+$w-50:50%;
+$w-25:25%;
+
+$h-100:100%;
+$h-75:75%;
+$h-50:50%;
+$h-25:25%;
+
+$paleta:(
+    'fondo1': #d4c590,
+	'fondo2': #bfbfbf,
+    'fondo3': #fff
+);
+
+@mixin iconos ($font-size,$text-align,$margin-left,$margin-right,$color) {
+    font-size: $font-size;
+    text-align: $text-align;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+    color: $color;
+}
+
+

@@ -1,0 +1,29 @@
+
+.btn-black{
+   color: #fff;
+   background-color: $secondColor;
+   border-color: $secondColor;
+   &:hover{
+      color: #fff;
+      background-color: $secondColor;
+      border-color: $secondColor;
+      transform: scale(0.9);
+   }
+}
+
+.bg-dest{
+   background-color: map-get($map: $paleta, $key:'fondo3');
+}
+
+.btn-form{
+   @extend .btn-black;
+   border-radius: 15px;
+}
+
+.titulo-1{
+   font-size: $textMd;
+}
+
+.texto-1{
+   font-size: $textMd;
+}
